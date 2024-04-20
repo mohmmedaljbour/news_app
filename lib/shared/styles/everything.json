@@ -1,0 +1,536 @@
+//  https://newsapi.org/v2/everything?q=tesla&from=2021-10-15&sortBy=publishedAt&apiKey=0d8b4d33d18c449faa35f17eac5b011c
+
+ /*{
+  "status": "ok",
+  "totalResults": 2645,
+  "articles": [
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Mariella Moon",
+      "title": "iFixit's Apple Watch Series 7 teardown shows the same display tech as iPhone 13",
+      "description": "iFixit has taken apart the Apple Watch Series 7 and showed that despite having minimal changes on the outside, it does feature some big upgrades underneath. As we mentioned in our review, the main difference between this device and the Series 6 is its slightl…",
+      "url": "https://www.engadget.com/apple-watch-series-7-teardown-ifixit-055346543.html",
+      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-10/4d0e1b40-32f1-11ec-99eb-57977b25e4bd",
+      "publishedAt": "2021-10-22T05:53:46Z",
+      "content": "iFixit has taken apart the Apple Watch Series 7 and showed that despite having minimal changes on the outside, it does feature some big upgrades underneath. As we mentioned in our review, the main di… [+1535 chars]"
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Mat Smith",
+      "title": "The Morning After: Razer’s light-up smart face mask finally goes on sale",
+      "description": "After a long run of teasing the RGB-lit Zephyr mask, Razer is finally ready to sell it to die-hard fans — or possibly cosplayers. The Zephyr costs $100 or there’s a $150 Starter Pack with three replacement filter kits. Alas, the Starter Pack is already listed…",
+      "url": "https://www.engadget.com/the-morning-after-razers-light-up-smart-face-mask-finally-goes-on-sale-111519295.html",
+      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-10/c2dbed10-329d-11ec-a77f-130ccbfff8ea",
+      "publishedAt": "2021-10-22T11:15:19Z",
+      "content": "After a long run of teasing the RGB-lit Zephyr mask, Razer is finally ready to sell it to die-hard fans or possibly cosplayers. The Zephyr costs $100 or theres a $150 Starter Pack with three replacem… [+4142 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Victoria Song",
+      "title": "The Next MacBook Air Might Be the First With the M2 Chip",
+      "description": "Apple announced the new MacBook Pros earlier this week, which means the rumor mill has already moved on to the next Mac in the lineup: The 2022 MacBook Air. And so far, it’s looking like there will be a number of changes for Apple’s entry-level MacBook.Read m…",
+      "url": "https://gizmodo.com/the-next-macbook-air-might-be-the-first-with-the-m2-chi-1847915947",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/5a78732c256ae946aac218f016dc1ec4.jpg",
+      "publishedAt": "2021-10-22T14:40:00Z",
+      "content": "Apple announced the new MacBook Pros earlier this week, which means the rumor mill has already moved on to the next Mac in the lineup: The 2022 MacBook Air. And so far, its looking like there will be… [+2323 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Jody Serrano",
+      "title": "We're Running Out of Blue",
+      "description": "If you thought the global supply chain disruptions only affected your receipt at the grocery store or your ability to get the newest Apple product, think again. The paint industry is going through an intense supply chain crunch right now, which is bad news if…",
+      "url": "https://gizmodo.com/were-running-out-of-blue-1847914317",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/2251b5609031ecf012f8716f28eb8626.jpg",
+      "publishedAt": "2021-10-22T03:40:00Z",
+      "content": "If you thought the global supply chain disruptions only affected your receipt at the grocery store or your ability to get the newest Apple product, think again. The paint industry is going through an… [+2186 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Will Apple be the last US tech giant left in China?",
+      "description": "As Microsoft closes down the main version of LinkedIn, Apple looks more alone in China than ever.",
+      "url": "https://www.bbc.co.uk/news/technology-59009796",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/394C/production/_121186641_gettyimages-1235783628.jpg",
+      "publishedAt": "2021-10-22T23:54:49Z",
+      "content": "By James ClaytonNorth America technology reporter\r\nImage source, Getty Images\r\nImage caption, Apple has a big presence in China - unlike many of its peers\r\nThere was a time when the US tech giants we… [+5041 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Reuters Editorial",
+      "title": "Apple, China battery makers talks stall - sources - Reuters",
+      "description": "Apple's talks with China's CATL and BYD over battery supplies for its planned electric vehicle have been mostly stalled after they refused to set up teams and build U.S. plants that would solely cater to the tech giant, three people with knowledge of the disc…",
+      "url": "https://www.reuters.com/video/watch/idOVF08WY2Z",
+      "urlToImage": "https://static.reuters.com/resources/r/?d=20211022&i=OVF08WY2Z&r=OVF08WY2Z&t=2",
+      "publishedAt": "2021-10-22T09:34:08Z",
+      "content": "Posted \r\nApple's talks with China's CATL and BYD over battery supplies for its planned electric vehicle have been mostly stalled after they refused to set up teams and build U.S. plants that would so… [+111 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Reuters Staff",
+      "title": "Exclusive-Apple's talks with Chinese battery makers CATL and BYD mostly stalled -sources - Reuters.com",
+      "description": "Apple Inc's talks with China's CATL and BYD over battery supplies for its planned electric vehicle have been mostly stalled after they refused to set up teams and build U.S. plants that would solely cater to the tech giant, three people with knowledge of the …",
+      "url": "https://www.reuters.com/article/apple-autos-china-exclusive-idUSKBN2HC0LB",
+      "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20211022&t=2&i=1578683327&r=LYNXMPEH9L097&w=800",
+      "publishedAt": "2021-10-22T06:39:00Z",
+      "content": "By Reuters Staff\r\nSHANGHAI/HONG KONG (Reuters) - Apple Incs talks with Chinas CATL and BYD over battery supplies for its planned electric vehicle have been mostly stalled after they refused to set up… [+3048 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Shreyashi Sanyal",
+      "title": "Nasdaq set for lower open after Intel's margin warning - Reuters",
+      "description": "The Nasdaq was set for a lower open on Friday after chipmaker Intel warned of lower profit margins, while Snap Inc led declines among social media firms after flagging a hit to digital advertising from privacy changes by Apple.",
+      "url": "https://www.reuters.com/article/usa-stocks-idUSKBN2HC14L",
+      "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20211022&t=2&i=1578710624&r=LYNXMPEH9L0J7&w=800",
+      "publishedAt": "2021-10-22T12:49:00Z",
+      "content": "(Reuters) -The Nasdaq was set for a lower open on Friday after chipmaker Intel warned of lower profit margins, while Snap Inc led declines among social media firms after flagging a hit to digital adv… [+2603 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Nasdaq futures edge lower after Intel's margin warning - Reuters",
+      "description": "Nasdaq futures edged lower on Friday after chipmaker Intel warned of lower profit margins, while Snap Inc led declines among social media firms after flagging a hit to digital advertising from privacy changes by Apple.",
+      "url": "https://www.reuters.com/world/us/nasdaq-futures-edge-lower-after-intels-margin-warning-2021-10-22/",
+      "urlToImage": "https://www.reuters.com/resizer/T6qPIXxJMHLWP6bRWVpLXDoI9Ms=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/SFYPUYVL7BMFHDKTIUT54UE364.jpg",
+      "publishedAt": "2021-10-22T11:08:00Z",
+      "content": "Traders work on the floor of the New York Stock Exchange (NYSE) in New York City, U.S., October 20, 2021. REUTERS/Brendan McDermidOct 22 (Reuters) - Nasdaq futures edged lower on Friday after chipmak… [+2248 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Snap tumbles, drags social media giants on Apple privacy tweak worries - Reuters",
+      "description": "Shares of Snap Inc <a href=\"https://www.reuters.com/companies/SNAP.N\" target=\"_blank\">(SNAP.N)</a> plunged on Friday, dragging down other ad-dependent tech firms, after the photo messaging app owner warned of a prolonged hit from Apple Inc's <a href=\"https://…",
+      "url": "https://www.reuters.com/technology/snap-tumbles-drags-social-media-giants-apple-privacy-tweak-worries-2021-10-22/",
+      "urlToImage": "https://www.reuters.com/resizer/cV3_pz4cHTKiI5YvMsJzuIL231k=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/PN4MFUPTHFIVZFRTCTULYLTCA4.jpg",
+      "publishedAt": "2021-10-22T11:18:00Z",
+      "content": "A woman stands in front of the logo of Snap Inc on the floor of the New York Stock Exchange (NYSE) in New York City, NY, U.S. March 2, 2017. REUTERS/Lucas Jackson/File PhotoOct 22 (Reuters) - Shares … [+1950 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Lewis Krauskopf",
+      "title": "Tech giants' earnings may be another test for markets at new highs - Reuters.com",
+      "description": "Investors are homing in on a flood of earnings reports from Wall Street’s tech and Internet giants, as the high-growth stocks that have led markets higher for years face pressures from regulation, supply-chain snags and rising Treasury yields.",
+      "url": "https://www.reuters.com/article/usa-stocks-weekahead-idUSKBN2HC2DP",
+      "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20211022&t=2&i=1578774498&r=LYNXMPEH9L15B&w=800",
+      "publishedAt": "2021-10-22T22:08:00Z",
+      "content": "NEW YORK (Reuters) - Investors are homing in on a flood of earnings reports from Wall Streets tech and Internet giants, as the high-growth stocks that have led markets higher for years face pressures… [+4206 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Week Ahead in Antitrust: Oct. 25, 2021 - Reuters",
+      "description": "Here are some upcoming events of interest to the antitrust community. Unless otherwise noted, all times are local, and court appearances are virtual due to the COVID-19 pandemic.",
+      "url": "https://www.reuters.com/legal/litigation/week-ahead-antitrust-oct-25-2021-2021-10-22/",
+      "urlToImage": "https://www.reuters.com/resizer/PZoRNy_0sKxRRmmFs6w0lxPYl1g=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XOMB5774CVIU7FKKFUR7GBBJNI.jpg",
+      "publishedAt": "2021-10-22T19:37:00Z",
+      "content": "The company and law firm names shown above are generated automatically based on the text of the article. We are improving this feature as we continue to test and develop in beta. We welcome feedback,… [+6730 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Snap is better off without the rose-tinted filters - Reuters",
+      "description": "Snap <a href=\"https://www.reuters.com/companies/SNAP.N\" target=\"_blank\">(SNAP.N)</a> may have scared some sense into its investors. The disappearing-message app, represented by a cartoon ghost, lost $25 billion of market value on Friday morning, the day after…",
+      "url": "https://www.reuters.com/breakingviews/snap-is-better-off-without-rose-tinted-filters-2021-10-22/",
+      "urlToImage": "https://www.reuters.com/resizer/LrqvcJvlhhEiULKoufX1E37LTJE=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/3MKOTJSJYJMFTIL6HUSHRKSLOU.jpg",
+      "publishedAt": "2021-10-22T17:09:00Z",
+      "content": "Snapchat app is seen on a smartphone in this illustration taken, July 13, 2021. REUTERS/Dado Ruvic/Illustration/File PhotoNEW YORK, Oct 22 (Reuters Breakingviews) - Snap (SNAP.N) may have scared some… [+3277 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "U.S. says firms may meet chip data request amid Taiwan, South Korea concerns - Reuters",
+      "description": "The U.S. Commerce Department said on Thursday it had received indications from companies such as Intel and Infineon that they would cooperate with a voluntary request for data on the chips crisis, but that the final number and quality of responses would deter…",
+      "url": "https://www.reuters.com/technology/us-says-firms-may-meet-chip-data-request-amid-taiwan-south-korea-concerns-2021-10-22/",
+      "urlToImage": "https://www.reuters.com/resizer/y-cQn7_2c1xJ0W7xR8exY-1Bx6g=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/UFXENLSQ35LPPGWW3TY7TGJ7PE.jpg",
+      "publishedAt": "2021-10-22T03:36:00Z",
+      "content": "Oct 22 (Reuters) - The U.S. Commerce Department said on Thursday it had received indications from companies such as Intel and Infineon that they would cooperate with a voluntary request for data on t… [+2256 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Equities eye third week of gains after tech boost, dollar dips - Reuters",
+      "description": "Global shares got a tech boost to help tee up a third straight week of gains on Friday, despite growing inflation concerns, while the dollar dipped and oil prices bounced off their lows.",
+      "url": "https://www.reuters.com/business/global-markets-wrapup-4-2021-10-22/",
+      "urlToImage": "https://www.reuters.com/resizer/yOR1IkQk0SlQCMKi7DmNxFowGd8=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/PMDHCW5XJFJLHN2I3B7Z5OC5OA.jpg",
+      "publishedAt": "2021-10-22T09:15:00Z",
+      "content": "LONDON, Oct 22 (Reuters) - Global shares got a tech boost to help tee up a third straight week of gains on Friday, despite growing inflation concerns, while the dollar dipped and oil prices bounced o… [+3659 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Kevin Buckland",
+      "title": "GLOBAL MARKETS-Asian tech shares jump, China property stocks rally as Evergrande makes payment - Reuters.com",
+      "description": "Tech stocks climbed in Asia on Friday, following U.S. peers higher, while Chinese property stocks rallied following a surprise interest payment https://www.reuters.com/world/china/china-evergrande-sends-funds-trustee-bond-coupon-due-sept-23-source-2021-10-22 …",
+      "url": "https://www.reuters.com/article/global-markets-idUSKBN2HC085",
+      "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20211022&t=2&i=1578664600&r=LYNXMPEH9L02Z&w=800",
+      "publishedAt": "2021-10-22T03:09:00Z",
+      "content": "TOKYO (Reuters) - Tech stocks climbed in Asia on Friday, following U.S. peers higher, while Chinese property stocks rallied following a surprise interest payment here by debt-ridden property develope… [+3581 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Asian tech shares jump, China property stocks rally as Evergrande makes payment - Reuters",
+      "description": "Tech stocks climbed in Asia on Friday, following U.S. peers higher, while Chinese property stocks rallied following a <a href=\"https://www.reuters.com/world/china/china-evergrande-sends-funds-trustee-bond-coupon-due-sept-23-source-2021-10-22\" target=\"_blank\">…",
+      "url": "https://www.reuters.com/business/global-markets-wrapup-1-2021-10-22/",
+      "urlToImage": "https://www.reuters.com/resizer/F0Mqz_bkr852ClHhCuuC8puU-dw=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/ITLK32GRMBJDBEKIL2OGAMG3OY.jpg",
+      "publishedAt": "2021-10-22T03:14:00Z",
+      "content": "TOKYO, Oct 22 (Reuters) - Tech stocks climbed in Asia on Friday, following U.S. peers higher, while Chinese property stocks rallied following a surprise interest payment by debt-ridden property devel… [+3739 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Equities eye third week of gains after tech boost, dollar dips - Reuters",
+      "description": "Global shares were on course for their third straight week of gains on Friday, buoyed by tech stocks in Asia overnight, while the dollar dipped and oil prices held steady.",
+      "url": "https://www.reuters.com/business/global-markets-wrapup-3-2021-10-22/",
+      "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=53",
+      "publishedAt": "2021-10-22T08:00:00Z",
+      "content": "LONDON/TOKYO, Oct 22 (Reuters) - Global shares were on course for their third straight week of gains on Friday, buoyed by tech stocks in Asia overnight, while the dollar dipped and oil prices held st… [+2928 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Asia tech shares jump; China property stocks rally on Evergrande payment - Reuters",
+      "description": "Tech stocks climbed in Asia on Friday, following U.S. peers higher, while Chinese property stocks rallied following a <a href=\"https://www.reuters.com/world/china/china-evergrande-sends-funds-trustee-bond-coupon-due-sept-23-source-2021-10-22\" target=\"_blank\">…",
+      "url": "https://www.reuters.com/business/global-markets-wrapup-2-2021-10-22/",
+      "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=53",
+      "publishedAt": "2021-10-22T06:49:00Z",
+      "content": "TOKYO, Oct 22 (Reuters) - Tech stocks climbed in Asia on Friday, following U.S. peers higher, while Chinese property stocks rallied following a surprise interest payment by debt-ridden property devel… [+4763 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Take Five: ECB, FAANG and China's bond conundrum - Reuters",
+      "description": "The week to come will give European Central Bank policy makers another chance to ponder just how sticky inflation really is, while U.S. earnings will be dominated by FAANG companies.",
+      "url": "https://www.reuters.com/business/take-five/global-markets-themes-takealook-2021-10-22/",
+      "urlToImage": "https://www.reuters.com/resizer/VTJUsiq6QiQ5JtSlLYa8ub1xhHM=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/YORG2GAIPZN6VH2QP7ZEQ5AE74.jpg",
+      "publishedAt": "2021-10-22T10:33:00Z",
+      "content": "Traders work on the floor of the New York Stock Exchange (NYSE) in New York City, U.S., October 20, 2021. REUTERS/Brendan McDermidOct 22 (Reuters) - The week to come will give European Central Bank p… [+5145 chars]"
+    }
+  ]
+}*/
+https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=0d8b4d33d18c449faa35f17eac5b011c
+// https://newsapi.org/v2/everything?q=tesla&apiKey=0d8b4d33d18c449faa35f17eac5b011c
+{
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Cointelegraph"
+      },
+      "author": "Keira Wright",
+      "title": "Infrastructure bill can still be remedied: DeFi dev-turned Congress candidate - Cointelegraph",
+      "description": "DeFi dev turned congressional candidate Matt West says that there is still time to amend the anti-crypto section of the infrastructure bill.",
+      "url": "https://cointelegraph.com/news/infrastructure-bill-can-still-be-remedied-defi-dev-turned-congress-candidate",
+      "urlToImage": "https://images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjEtMTEvMTg5ODhkZDUtOTc1Yi00M2EzLWE1NDgtMGZiN2Y0NDAzOTJkLmpwZw==.jpg",
+      "publishedAt": "2021-11-16T06:15:33Z",
+      "content": "The controversial U.S. infrastructure bill was signed into law by President Joe Biden this morning, with the legislation passing without amendments made to the broad provisions that could impose stri… [+2078 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "JP Morgan sues EV maker for $162 MN over warrants | Tesla | WION | World Business Watch | World News - WION",
+      "description": "JPMorgan Chase & Co on Monday sued Tesla for $162.2 million, accusing Elon Musk's electric car company of \"flagrantly\" breaching a contract related to stock ...",
+      "url": "https://www.youtube.com/watch?v=UVuqZdsuXe4",
+      "urlToImage": "https://i.ytimg.com/vi/UVuqZdsuXe4/maxresdefault.jpg",
+      "publishedAt": "2021-11-16T06:01:06Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Michelle Toh, CNN Business",
+      "title": "Google is making its biggest investment ever in Australia - CNN",
+      "description": "Google is making its largest-ever investment in Australia, after a clash with the government that saw the tech giant threaten to shut down search there earlier this year.",
+      "url": "https://www.cnn.com/2021/11/16/tech/google-australia-digital-future-initiative-intl-hnk/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/211116004014-google-tablet-stock-super-tease.jpg",
+      "publishedAt": "2021-11-16T05:47:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Asian shares tick up on China property relief, focus shifts to Sino-U.S. talks - Reuters",
+      "description": "Asian shares were mostly higher on Tuesday, as relief in China's property sector supported sentiment while investors also kept a close eye on a key meeting between U.S. President Joe Biden and Chinese leader Xi Jinping.",
+      "url": "https://www.reuters.com/business/global-markets-wrapup-1-2021-11-16/",
+      "urlToImage": "https://www.reuters.com/resizer/W26fZPbqKRNfq4sLXAfCMyBKH74=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/TV2X3TT56ROH7HPAV4ZMR5XHBI.jpg",
+      "publishedAt": "2021-11-16T05:32:00Z",
+      "content": "A woman wearing a protective mask, amid the COVID-19 outbreak, walks past an electronic board displaying Japan and other countries' stock indexes outside a brokerage in Tokyo, Japan, September 21, 20… [+3812 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Investor's Business Daily"
+      },
+      "author": "Investor's Business Daily",
+      "title": "Dow Jones Futures Fall As Biden, Xi Meet; Elon Musk Sells More Tesla Stock - Investor's Business Daily",
+      "description": "Dow Jones futures were lower early Tuesday, as President Biden met with with Chinese President Xi, while CEO Elon Musk sold more Tesla stock.",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-biden-xi-meeting-in-focus-lucid-stock-surges-on-earnings/",
+      "urlToImage": "https://www.investors.com/wp-content/uploads/2021/11/Stock-elonmusk-05-shutt.jpg",
+      "publishedAt": "2021-11-16T05:27:00Z",
+      "content": "Dow Jones futures were slightly lower early Tuesday, as President Biden met virtually with Chinese President Xi Jinping. Tesla stock continued its recent fall, while Rivian extended its torrid run. A… [+9014 chars]"
+    },
+    {
+      "source": {
+        "id": "financial-times",
+        "name": "Financial Times"
+      },
+      "author": null,
+      "title": "Latest news updates: Temasek ramps up agtech investment in Singapore food security push - Financial Times",
+      "description": "News, analysis and comment from the Financial Times, the worldʼs leading global business publication",
+      "url": "https://www.ft.com/content/523969b3-b785-4a20-aa5b-74c9cf9c57fe",
+      "urlToImage": null,
+      "publishedAt": "2021-11-16T04:21:12Z",
+      "content": "Expert insights, analysis and smart data help you cut through the noise to spot trends,\r\nrisks and opportunities.\r\nJoin over 300,000 Finance professionals who already subscribe to the FT."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MarketWatch"
+      },
+      "author": "Mike Murphy",
+      "title": "Elon Musk exercises options, sells another $930 million in Tesla stock - MarketWatch",
+      "description": "CEO has sold $7.8 billion in stock over the past week as shares have sunk",
+      "url": "https://www.marketwatch.com/story/elon-musk-exercises-options-sells-another-930-million-in-tesla-stock-11637034597",
+      "urlToImage": "https://images.mktw.net/im-435700/social",
+      "publishedAt": "2021-11-16T03:49:00Z",
+      "content": "Elon Musk continues to unload Tesla Inc. stock, exercising his options and selling another $930 million in shares Monday after dumping $6.9 billion in stock last week.According to filings Monday with… [+1251 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bitcoin.com"
+      },
+      "author": null,
+      "title": "'Big Short' Investor Michael Burry Says 'I've Never Shorted Any Cryptocurrency' — Warns of the Biggest Bubble – Finance Bitcoin News - Bitcoin News",
+      "description": "Hedge fund manager Michael Burry, famed for forecasting the 2008 financial crisis, says that he has never shorted any cryptocurrency. He further warned that the current bubble is the biggest one.",
+      "url": "https://news.bitcoin.com/big-short-investor-michael-burry-never-shorted-any-cryptocurrency-warns-biggest-bubble/",
+      "urlToImage": "https://static.news.bitcoin.com/wp-content/uploads/2021/11/burry.jpg",
+      "publishedAt": "2021-11-16T02:30:38Z",
+      "content": "Hedge fund manager Michael Burry, famed for forecasting the 2008 financial crisis, says that he has never shorted any cryptocurrency. He further warned that the current bubble is the biggest one.\r\nFa… [+2517 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Evelyn Cheng",
+      "title": "Chinese livestreamers can rake in billions of dollars in hours. How long will it last? - CNBC",
+      "description": "Even as China's newly rich internet celebrities keep smashing livestreaming sales records, businesses are finding other strategies that might work better.",
+      "url": "https://www.cnbc.com/2021/11/16/chinese-livestreamers-can-rake-in-billions-of-dollars-in-hours-how-long-will-it-last.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/106973110-1636504318984-gettyimages-1349601866-vcg111355024720.jpeg?v=1636504387",
+      "publishedAt": "2021-11-16T02:29:00Z",
+      "content": "Online streamers prepare for the annual Double 11 online shopping festival at Lingu e-commerce industry park on October 27, 2021 in Linyi, Shandong Province of China.\r\nBEIJING Even as China's newly r… [+5923 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Minneapolis Star Tribune"
+      },
+      "author": "Alex Chhith",
+      "title": "Two Minnesotans sickened in E. Coli outbreak linked to two brands of organic baby spinach - Minneapolis Star Tribune",
+      "description": "The CDC reports 10 people fell ill across seven states.",
+      "url": "https://www.startribune.com/two-minnesotans-sickened-in-e-coli-outbreak-linked-to-two-brands-of-organic-baby-spinach/600117116/",
+      "urlToImage": "https://chorus.stimg.co/23017755/08_1005470746_10GREENS021918.jpg?h=630&w=1200&fit=crop&bg=999&crop=faces",
+      "publishedAt": "2021-11-16T02:20:26Z",
+      "content": "Health officials are investigating an E. coli outbreak that sickened two people in Minnesota and several more across the country.\r\nThe outbreak is from organic baby spinach from Josie's Organics and … [+905 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Quad City Times"
+      },
+      "author": "Cara Smith",
+      "title": "'It's a big mess': UAW members split on Deere's latest offer - Quad-City Times",
+      "description": "Deere &amp; Co.\"last, best and final offer\" to the UAW includes changes to the language used to describe its Continuous Improvement Pay System (CIPP).",
+      "url": "https://qctimes.com/business/local/it-s-a-big-mess-uaw-members-split-on-deere-s-latest-offer/article_71aaa6c8-e6a7-5707-8b60-4f493c5c4144.html",
+      "urlToImage": "https://bloximages.chicago2.vip.townnews.com/qctimes.com/content/tncms/assets/v3/editorial/1/d9/1d977ffb-4a77-5802-9016-89d3dd4db696/6192d92ad83fd.image.jpg?crop=1733%2C980%2C0%2C107&resize=1114%2C630&order=crop%2Cresize",
+      "publishedAt": "2021-11-16T02:02:28Z",
+      "content": "Janet Harris, of Davenport, center, and other picketers strike outside of the John Deere Parts Distribution Center Monday in Milan.\r\nMEG MCLAUGHLIN\r\nPicketers say tensions are rising ahead of a Wedne… [+1356 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Matthew J. Belvedere",
+      "title": "Cramer looks at tech stocks to own in AI, the metaverse, electric vehicles and fintech - CNBC",
+      "description": "CNBC's Jim Cramer talked about the four major innovations and the companies that justify tech as a leader in the stock market.",
+      "url": "https://www.cnbc.com/2021/11/15/cramer-looks-at-tech-stocks-to-own-in-ai-the-metaverse-electric-vehicles-and-fintech.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/106871163-1618945754172-gettyimages-1231345600-NVIDIA_EARNS.jpeg?v=1636720006",
+      "publishedAt": "2021-11-16T01:21:00Z",
+      "content": "CNBC's Jim Cramer bought \"Mad Money\" back to San Francisco for the first time in two years and talked about the four major innovations and the companies that justify tech as a leader in the stock mar… [+2444 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "KPRC Click2Houston"
+      },
+      "author": "Howard Chen",
+      "title": "WHAT-A-LINE: People are going crazy for Whataburger in Kansas City - KPRC Click2Houston",
+      "description": "Texans already know just how good Whataburger is, but in the Kansas City area? The craziness was real on the first day Whataburger opened a location there.",
+      "url": "https://www.click2houston.com/news/local/2021/11/16/what-a-line-people-are-going-crazy-for-whataburger-in-kansas-city/",
+      "urlToImage": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/MPQTGO2BXZH4ZIDGFI7YW7FSPQ.jpg?_a=ATABlcW0",
+      "publishedAt": "2021-11-16T01:03:18Z",
+      "content": "Texans already know just how good Whataburger is, but in the Kansas City area? The craziness was real on the first day Whataburger opened a location there.\r\nThe day started off normally enough.\r\n::ya… [+934 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MMA Fighting"
+      },
+      "author": "Damon Martin",
+      "title": "Endeavor: Third-quarter earnings report reveals UFC has best 9 months in promotion’s history - MMA Fighting",
+      "description": "Endeavor released its third quarter earnings report, which was bolstered by the UFC in what the company is now calling the best nine months in the promotion’s history.",
+      "url": "https://www.mmafighting.com/2021/11/15/22784169/endeavor-third-quarter-earnings-report-ufc-experiencing-best-9-months-history",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/unbwUQujRTp5Bk3i1KJDe86Gar4=/0x0:5277x2763/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23017412/852712670.jpg",
+      "publishedAt": "2021-11-16T01:00:00Z",
+      "content": "Endeavor reported a profitable third quarter in 2021 with record numbers being produced by one of the companys biggest assets in the UFC.\r\nThe now publicly traded company under Endeavor Group Holding… [+1732 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Guardian staff reporter",
+      "title": "Amazon to pay $500,000 fine for failing to notify workers of Covid cases - The Guardian",
+      "description": "In a landmark US judgment, California official says the company failed to ‘adequately notify’ employees and local health agencies",
+      "url": "https://amp.theguardian.com/technology/2021/nov/15/amazon-fined-workers-covid-cases",
+      "urlToImage": "https://i.guim.co.uk/img/media/3822a9cab0481b10505adc6db22e671410e43242/130_0_3281_1969/master/3281.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=008e9182bf4325506953e998a194e4c8",
+      "publishedAt": "2021-11-16T00:48:00Z",
+      "content": "Amazon has agreed to pay a $500,000 fine and be monitored by California officials after the states attorney general said the company failed to adequately notify workers and health authorities about n… [+3509 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Stephanie Landsman",
+      "title": "Fed should hike interest rates immediately to cut stagflation risks, economist Stephen Roach suggests - CNBC",
+      "description": "If rising prices aren't contained quickly, former Federal Reserve economist Stephen Roach warns inflation could morph into stagflation.",
+      "url": "https://www.cnbc.com/2021/11/15/fed-must-hike-interest-rates-to-cut-stagflation-risks-stephen-roach.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/104849121-GettyImages-527706498.jpg?v=1637018848",
+      "publishedAt": "2021-11-16T00:47:00Z",
+      "content": "Former Federal Reserve economist Stephen Roach sees only one way to contain inflation: immediate rate hikes.\r\nIf the Fed doesn't act, he warns rising prices could send shockwaves through the economy.… [+1832 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Daily Beast"
+      },
+      "author": "AJ McDougall",
+      "title": "Ohio Sues Company Formerly Known as Facebook Over Algorithm, Effect on Kids - The Daily Beast",
+      "description": "The suit, which alleges that Facebook flouted federal securities law to boost stock and fool shareholders, seeks more than $100 billion in damages.",
+      "url": "https://www.thedailybeast.com/meta-sued-over-facebook-algorithm-effect-on-children-by-ohio-attorney-general-dave-yost",
+      "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_2753,w_4895,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1637020426/GettyImages-1349793495_w1xi9c",
+      "publishedAt": "2021-11-16T00:26:00Z",
+      "content": "The company once known as Facebook, Meta Platforms Inc., deliberately misled the public about its algorithm and the negative effects its products have on minors to maximize profits, according to a ne… [+1048 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Adrian Marlow",
+      "title": "Black Friday 2021 ad scans: Major price cuts coming to Walmart, Target, Macy's, and more - CNET",
+      "description": "After weeks of teasing, the best Black Friday deals have arrived. New ad scans reveal deep price cuts at major retailers. Start your planning now.",
+      "url": "https://www.cnet.com/home/black-friday-2021-ad-scans-unveiled-walmart-target-macys-and-more-reveal-major-price-cuts/",
+      "urlToImage": "https://www.cnet.com/a/img/NlWZ5H8w7RWqCI9DzPO738VNQxY=/1200x630/2021/11/15/b362cd1f-e684-478d-9a93-40f59db09af5/screen-shot-2021-11-15-at-9-17-09-am.png",
+      "publishedAt": "2021-11-16T00:24:29Z",
+      "content": "Show more (12 items)\r\nThis story is part of Holiday Gift Guide 2021, our list of ideas, by topic, by recipient and by price, to help you discover the perfect gift.\r\n Black Friday can feel more like a… [+2640 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Daily Mail"
+      },
+      "author": "Harriet Alexander",
+      "title": "Tyson Foods will hike prices again to combat Bidenflation and soaring costs - Daily Mail",
+      "description": "Tyson Foods said on Monday that inflation is causing the prices of their meats to rise, with chicken up 19 per cent during its fiscal fourth quarter; beef 33 per cent and pork up 38 per cent.",
+      "url": "https://www.dailymail.co.uk/news/article-10205657/Tyson-Foods-hike-prices-combat-Bidenflation-soaring-costs.html",
+      "urlToImage": "https://i.dailymail.co.uk/1s/2021/11/15/23/50530941-0-image-a-28_1637020772495.jpg",
+      "publishedAt": "2021-11-16T00:00:00Z",
+      "content": "The biggest meat company by sales in the United States has announced significant prices rises for the fourth quarter, as the impact of the highest inflation for 30 years continues to be felt.\r\nTyson … [+5663 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": null,
+      "title": "China's Property Crackdown Is Dragging Economy to Lows of 1990 - Bloomberg",
+      "description": null,
+      "url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=499057de-4699-11ec-9fc9-4a4f686e4869&url=L25ld3MvYXJ0aWNsZXMvMjAyMS0xMS0xNi9jaGluYS1zLXByb3BlcnR5LWNyYWNrZG93bi1pcy1kcmFnZ2luZy1lY29ub215LXRvLWxvd3Mtb2YtMTk5MA==",
+      "urlToImage": null,
+      "publishedAt": "2021-11-16T00:00:00Z",
+      "content": "To continue, please click the box below to let us know you're not a robot."
+    }
+  ],
+  "status": "ok",
+  "totalResults": 70
+}
